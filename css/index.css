@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+    background: rgb(2, 2, 39);
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+}
+header{
+    padding: 5px;
+    background: darkblue;
+    width: 100%;
+}
+header #navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+header img{
+    height: 40px;
+}
+.container {
+    position: relative;
+  }
+  
+  .icon {
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  main{
+    padding-top: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #containerLogin{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 7px;
+    gap: 10px;
+  }
+  #variLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+  }
+  #variLogo img{
+    height: 30px;
+  }
+  #navbar ul{
+    color: gray;
+    list-style: none;
+    text-align: justify;
+  }
+  #navbar ul li{
+    color: grey;
+    display: inline-block;
+    margin-right: 10px;
+    font-size: small;
+  }
+  #containerLogin button{
+    background: cyan;
+    color: grey;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  #containerLogin button:hover{
+    background-color: rgb(13, 131, 131);
+    transition: .3s;
+  }
